@@ -1,0 +1,42 @@
+# 1. Global settings must go at the VERY TOP
+add_newline = true
+command_timeout = 200
+
+# 2. Your custom format (Moved to top & fixed to include git/character)
+format = '''
+[╭────────────────────>](bold cyan)  $directory
+[│](bold cyan) $git_branch $git_status
+[╰──](bold cyan) $character'''
+
+# 3. Module Configurations
+[character]
+error_symbol = "[ ](bold red)"
+success_symbol = '[ ](bold cyan)'
+
+[directory]
+truncation_length = 0
+truncate_to_repo = false
+truncation_symbol = "…/"
+repo_root_style = "bold cyan"
+repo_root_format = "[$repo_root]($repo_root_style)[$path]($style)[$read_only]($read_only_style) "
+
+[git_branch]
+format = "[$branch]($style) "
+style = "italic cyan"
+
+[git_status]
+format = '[$all_status]($style)'
+style = "cyan"
+ahead = "⇡${count} "
+diverged = "⇕⇡${ahead_count}⇣${behind_count} "
+behind = "⇣${count} "
+conflicted = " "
+up_to_date = " "
+untracked = "? "
+modified = " "
+staged = "++"
+renamed = "»"
+deleted = "🗑"
+
+[package]
+disabled = true

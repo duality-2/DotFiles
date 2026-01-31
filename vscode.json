@@ -1,0 +1,80 @@
+{
+  "update.mode": "none",
+  "github.copilot.inlineSuggest.enable": false,
+  "github.copilot.nextEditSuggestions.enabled": false,
+  "files.autoSave": "afterDelay",
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.snippetSuggestions": "inline",
+  "editor.inlineSuggest.enabled": false,
+
+  "workbench.iconTheme": "material-icon-theme",
+
+  "workbench.navigationControl.enabled": false,
+  "window.commandCenter": false,
+  "workbench.secondarySideBar.defaultVisibility": "visible",
+  "terminal.integrated.fontLigatures.enabled": true,
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.fontFamily": "monospace",
+  "explorer.confirmDelete": false,
+
+  "explorer.confirmDragAndDrop": false,
+
+  "window.customTitleBarVisibility": "windowed",
+  "editor.wordWrap": "on",
+  "editor.inlayHints.enabled": "off",
+
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "animations.Install-Method": "Apc Customize UI++",
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.enableSmartCommit": true,
+  "emmet.preferences": {},
+
+  "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "editor.fontLigatures": true,
+
+  "editor.inlineSuggest.suppressSuggestions": true,
+
+  "explorer.confirmPasteNative": false,
+
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+
+  // "keybindings": [
+  //   {
+  //     "key": "ctrl+shift+b",
+  //     "command": "workbench.view.explorer",
+  //     "when": "!sideBarFocus"
+  //   },
+  //   {
+  //     "key": "ctrl+shift+b",
+  //     "command": "workbench.action.toggleSidebarVisibility",
+  //     "when": "sideBarFocus"
+  //   }2
+  // ],
+
+  "editor.lineNumbers": "on",
+
+  "vscode_custom_css.imports": [""],
+
+  "editor.minimap.enabled": false,
+
+  "chat.editing.confirmEditRequestRemoval": false,
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+  "workbench.colorTheme": "GitHub Dark Default"
+  // "workbench.activityBar.location": "hidden"
+}
