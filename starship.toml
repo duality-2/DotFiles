@@ -1,3 +1,4 @@
+# nvim ~/.config/starship.toml
 # 1. Global settings must go at the VERY TOP
 add_newline = true
 command_timeout = 200
